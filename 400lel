@@ -1,0 +1,12 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="PORT <= 6930.5\ngini = 0.342\nsamples = 10000\nvalue = [7807, 2193]\nclass = TCP", fillcolor="#e58139b7"] ;
+1 [label="gini = 0.161\nsamples = 8060\nvalue = [7346, 714]\nclass = TCP", fillcolor="#e58139e6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="PORT <= 29976.5\ngini = 0.362\nsamples = 1940\nvalue = [461, 1479]\nclass = UDP", fillcolor="#399de5b0"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.162\nsamples = 1616\nvalue = [144, 1472]\nclass = UDP", fillcolor="#399de5e6"] ;
+2 -> 3 ;
+4 [label="gini = 0.042\nsamples = 324\nvalue = [317, 7]\nclass = TCP", fillcolor="#e58139f9"] ;
+2 -> 4 ;
+}

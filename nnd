@@ -1,0 +1,4 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="gini = 0.342\nsamples = 10000\nvalue = [7807, 2193]\nclass = TCP"] ;
+}
